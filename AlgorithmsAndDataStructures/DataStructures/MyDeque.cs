@@ -115,6 +115,10 @@ namespace AlgorithmsAndDataStructures.DataStructures
             count--;
             return temp.element;
         }
+        /// <summary>
+        /// Remove the element at the last position
+        /// </summary>
+        /// <returns> Returns the removed element </returns>
         public T RemoveLast()
         {
             if (count == 0)
@@ -135,7 +139,10 @@ namespace AlgorithmsAndDataStructures.DataStructures
             count--;
             return temp.element;
         }
-
+        /// <summary>
+        /// Get the element at the first position
+        /// </summary>
+        /// <returns></returns>
         public T PeekFirst()
         {
             if (count != 0)
@@ -147,7 +154,10 @@ namespace AlgorithmsAndDataStructures.DataStructures
                 throw new ArgumentOutOfRangeException("There are no items in the deque.");
             }
         }
-
+        /// <summary>
+        /// Get the element at the last position
+        /// </summary>
+        /// <returns></returns>
         public T PeekLast()
         {
             if (count != 0)
@@ -159,7 +169,9 @@ namespace AlgorithmsAndDataStructures.DataStructures
                 throw new ArgumentOutOfRangeException("There are no items in the deque.");
             }
         }
-
+        /// <summary>
+        /// Clear the whole structure
+        /// </summary>
         public void Clear()
         {
             while (first != null)
@@ -169,7 +181,11 @@ namespace AlgorithmsAndDataStructures.DataStructures
             last = null;
             count = 0;
         }
-
+        /// <summary>
+        /// Iterrator for the deque
+        /// </summary>
+        /// <param name="index"> Position of the element </param>
+        /// <returns> Returns the all of the elements </returns>
         public T this[int index]
         {
             get
