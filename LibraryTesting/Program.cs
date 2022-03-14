@@ -7,6 +7,33 @@ namespace LibraryTesting
     {
         static void Main(string[] args)
         {
+            var myDeque = new MyDeque<string>();
+
+            myDeque.AddFirst("horse");
+            myDeque.AddFirst("whale");
+            myDeque.AddFirst("ocean");
+
+            string s = myDeque.RemoveFirst();
+
+            myDeque.AddLast("ocean");
+            myDeque.AddLast("poll");
+            myDeque.AddLast("pong");
+
+            for (int i = 0; i < myDeque.Count; i++)
+            {
+                Console.WriteLine(myDeque[i]);
+            }
+
+            myDeque.Clear();
+
+            string s1 = myDeque.RemoveLast();
+            string s2 = myDeque.PeekLast();
+
+            myDeque.AddFirst("one");
+            myDeque.AddLast("two");
+            myDeque.RemoveLast();
+            myDeque.RemoveLast();
+            myDeque.RemoveFirst();
 
             var myQueue = new MyQueue<string>();
 
