@@ -10,3 +10,15 @@ C:\Users\User\source\repos\AlgorithmsAndDataStructures\obj\Debug\net5.0\Algorith
 C:\Users\User\source\repos\AlgorithmsAndDataStructures\obj\Debug\net5.0\AlgorithmsAndDataStructures.dll
 C:\Users\User\source\repos\AlgorithmsAndDataStructures\obj\Debug\net5.0\ref\AlgorithmsAndDataStructures.dll
 C:\Users\User\source\repos\AlgorithmsAndDataStructures\obj\Debug\net5.0\AlgorithmsAndDataStructures.pdb
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\bin\Debug\net5.0\AlgorithmsAndDataStructures.deps.json
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\bin\Debug\net5.0\AlgorithmsAndDataStructures.dll
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\bin\Debug\net5.0\ref\AlgorithmsAndDataStructures.dll
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\bin\Debug\net5.0\AlgorithmsAndDataStructures.pdb
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net5.0\AlgorithmsAndDataStructures.csproj.AssemblyReference.cache
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net5.0\AlgorithmsAndDataStructures.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net5.0\AlgorithmsAndDataStructures.AssemblyInfoInputs.cache
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net5.0\AlgorithmsAndDataStructures.AssemblyInfo.cs
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net5.0\AlgorithmsAndDataStructures.csproj.CoreCompileInputs.cache
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net5.0\AlgorithmsAndDataStructures.dll
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net5.0\ref\AlgorithmsAndDataStructures.dll
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\AlgorithmsAndDataStructures\obj\Debug\net5.0\AlgorithmsAndDataStructures.pdb

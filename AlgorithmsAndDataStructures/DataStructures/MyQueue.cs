@@ -19,7 +19,7 @@ namespace AlgorithmsAndDataStructures.DataStructures
         private Node last = null;
 
         /// <summary>
-        /// Adds an element to the front of the queue
+        /// Adds an element to the back of the queue
         /// </summary>
         /// <param name="item"> Element to be added </param>
         public void Enqueue(T item)
@@ -39,7 +39,7 @@ namespace AlgorithmsAndDataStructures.DataStructures
             count++;
         }
         /// <summary>
-        /// Removes an element from the back of the queue
+        /// Removes an element from the front of the queue
         /// </summary>
         /// <returns> Returns the removed element </returns>
         public T Dequeue()

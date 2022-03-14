@@ -17,3 +17,22 @@ C:\Users\User\source\repos\LibraryTesting\obj\Debug\net5.0\LibraryTesting.dll
 C:\Users\User\source\repos\LibraryTesting\obj\Debug\net5.0\ref\LibraryTesting.dll
 C:\Users\User\source\repos\LibraryTesting\obj\Debug\net5.0\LibraryTesting.pdb
 C:\Users\User\source\repos\LibraryTesting\obj\Debug\net5.0\LibraryTesting.genruntimeconfig.cache
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\bin\Debug\net5.0\LibraryTesting.exe
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\bin\Debug\net5.0\LibraryTesting.deps.json
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\bin\Debug\net5.0\LibraryTesting.runtimeconfig.json
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\bin\Debug\net5.0\LibraryTesting.runtimeconfig.dev.json
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\bin\Debug\net5.0\LibraryTesting.dll
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\bin\Debug\net5.0\ref\LibraryTesting.dll
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\bin\Debug\net5.0\LibraryTesting.pdb
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\bin\Debug\net5.0\AlgorithmsAndDataStructures.dll
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\bin\Debug\net5.0\AlgorithmsAndDataStructures.pdb
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\obj\Debug\net5.0\LibraryTesting.csproj.AssemblyReference.cache
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\obj\Debug\net5.0\LibraryTesting.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\obj\Debug\net5.0\LibraryTesting.AssemblyInfoInputs.cache
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\obj\Debug\net5.0\LibraryTesting.AssemblyInfo.cs
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\obj\Debug\net5.0\LibraryTesting.csproj.CoreCompileInputs.cache
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\obj\Debug\net5.0\LibraryTesting.csproj.CopyComplete
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\obj\Debug\net5.0\LibraryTesting.dll
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\obj\Debug\net5.0\ref\LibraryTesting.dll
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\obj\Debug\net5.0\LibraryTesting.pdb
+D:\Users\User\Desktop\Git command center\AlgorithmsAndDataStructures\LibraryTesting\obj\Debug\net5.0\LibraryTesting.genruntimeconfig.cache
