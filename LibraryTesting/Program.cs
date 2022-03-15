@@ -7,51 +7,68 @@ namespace LibraryTesting
     {
         static void Main(string[] args)
         {
-            var myDeque = new MyDeque<string>();
+            int[] arr1 = new int[] { 3, 5, 8, 2, 9, 10, 1, 0, 1, 2 };
 
-            myDeque.AddFirst("horse");
-            myDeque.AddFirst("whale");
-            myDeque.AddFirst("ocean");
+            InsertionSort.Sort(arr1);
 
-            string s = myDeque.RemoveFirst();
-
-            myDeque.AddLast("ocean");
-            myDeque.AddLast("poll");
-            myDeque.AddLast("pong");
-
-            for (int i = 0; i < myDeque.Count; i++)
+            foreach (var item in arr1)
             {
-                Console.WriteLine(myDeque[i]);
+                Console.Write($"{item} ");
             }
 
-            myDeque.Clear();
+            //int[] arr = new int[] { 3, 5, 8, 2, 9, 10, 1, 0, 1, 2 };
+            //SelectionSort.Sort(arr);
 
-            string s1 = myDeque.RemoveLast();
-            string s2 = myDeque.PeekLast();
+            //foreach (var item in arr)
+            //{
+            //    Console.Write($"{item} ");
+            //}
 
-            myDeque.AddFirst("one");
-            myDeque.AddLast("two");
-            myDeque.RemoveLast();
-            myDeque.RemoveLast();
-            myDeque.RemoveFirst();
+            //var myDeque = new MyDeque<string>();
 
-            var myQueue = new MyQueue<string>();
+            //myDeque.AddFirst("horse");
+            //myDeque.AddFirst("whale");
+            //myDeque.AddFirst("ocean");
 
-            myQueue.Enqueue("Dog");
-            myQueue.Enqueue("Cat");
-            myQueue.Enqueue("Water");
-            myQueue.Enqueue("Soap");
+            //string s = myDeque.RemoveFirst();
 
-            Console.WriteLine(myQueue.Count);
-            Console.WriteLine(myQueue.IsEmpty());
+            //myDeque.AddLast("ocean");
+            //myDeque.AddLast("poll");
+            //myDeque.AddLast("pong");
 
-            Console.WriteLine(myQueue.Dequeue());
-            Console.WriteLine(myQueue.Dequeue());
-            Console.WriteLine(myQueue.Dequeue());
-            Console.WriteLine(myQueue.Dequeue());
+            //for (int i = 0; i < myDeque.Count; i++)
+            //{
+            //    Console.WriteLine(myDeque[i]);
+            //}
 
-            Console.WriteLine(myQueue.Count);
-            Console.WriteLine(myQueue.IsEmpty());
+            //myDeque.Clear();
+
+            //string s1 = myDeque.RemoveLast();
+            //string s2 = myDeque.PeekLast();
+
+            //myDeque.AddFirst("one");
+            //myDeque.AddLast("two");
+            //myDeque.RemoveLast();
+            //myDeque.RemoveLast();
+            //myDeque.RemoveFirst();
+
+            //var myQueue = new MyQueue<string>();
+
+            //myQueue.Enqueue("Dog");
+            //myQueue.Enqueue("Cat");
+            //myQueue.Enqueue("Water");
+            //myQueue.Enqueue("Soap");
+
+            //Console.WriteLine(myQueue.Count);
+            //Console.WriteLine(myQueue.IsEmpty());
+
+            //Console.WriteLine(myQueue.Dequeue());
+            //Console.WriteLine(myQueue.Dequeue());
+            //Console.WriteLine(myQueue.Dequeue());
+            //Console.WriteLine(myQueue.Dequeue());
+
+            //Console.WriteLine(myQueue.Count);
+            //Console.WriteLine(myQueue.IsEmpty());
 
             //var myStack = new MyStack<string>();
 
