@@ -7,14 +7,34 @@ namespace LibraryTesting
     {
         static void Main(string[] args)
         {
-            int[] arr1 = new int[] { 3, 5, 8, 2, 9, 10, 1, 0, 1, 2 };
 
-            InsertionSort.Sort(arr1);
+            int[] arr3 = new int[] { 0,1,2,3,4,5,6,7,8,9 };
 
-            foreach (var item in arr1)
+            ShuffleSort.Sort(arr3);
+
+            foreach (var item in arr3)
             {
                 Console.Write($"{item} ");
             }
+
+
+            //int[] arr2 = new int[] { 3, 5, 8, 2, 9, 10, 1, 0, 1, 2 };
+
+            //Shellsort.Sort(arr2);
+
+            //foreach (var item in arr2)
+            //{
+            //    Console.Write($"{item} ");
+            //}
+
+            //int[] arr1 = new int[] { 3, 5, 8, 2, 9, 10, 1, 0, 1, 2 };
+
+            //InsertionSort.Sort(arr1);
+
+            //foreach (var item in arr1)
+            //{
+            //    Console.Write($"{item} ");
+            //}
 
             //int[] arr = new int[] { 3, 5, 8, 2, 9, 10, 1, 0, 1, 2 };
             //SelectionSort.Sort(arr);
