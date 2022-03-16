@@ -8,6 +8,10 @@ namespace AlgorithmsAndDataStructures.Algorithms
 {
     public class ShuffleSort
     {
+        /// <summary>
+        /// Shuffle and array
+        /// </summary>
+        /// <param name="arr"> The array we wish to shuffle </param>
         public static void Sort(int[] arr)
         {
             int n = arr.Length;
