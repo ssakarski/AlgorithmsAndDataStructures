@@ -18,6 +18,7 @@ namespace AlgorithmsAndDataStructures.Algorithms
             int temp;
             for (int i = 0; i < n; i++)
             {
+                //Form a small subarray sort the small one and then move to the big one
                 for (int j = i; j > 0 ; j--)
                 {
                     if(arr[j] < arr[j-1])

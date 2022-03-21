@@ -20,6 +20,7 @@ namespace AlgorithmsAndDataStructures.Algorithms
             {
                 int min = i;
 
+                // Look from i+1 to the end for a smaller element and exchange their places
                 for (int j = i+1; j < n; j++)
                 {
                     if(arr[j] < arr[min])
