@@ -8,15 +8,31 @@ namespace LibraryTesting
         static void Main(string[] args)
         {
 
-            int[] arr5 = new int[] { 3, 5, 8, 2, 9, 10, 1, 0, 1, 2 };
+            UnorderedMaxPriorityQueue mpq = new UnorderedMaxPriorityQueue(7);
+            mpq.Insert(5);
+            mpq.Insert(2);
+            mpq.Insert(3);
+            mpq.Insert(4);
+            mpq.Insert(1);
+            mpq.Insert(8);
+            mpq.Insert(24);
 
-            ShuffleSort.Sort(arr5);
-            Quicksort.Sort(arr5, 0, arr5.Length - 1);
+            Console.WriteLine(mpq.DeleteMax());
+            Console.WriteLine(mpq.DeleteMax());
+            Console.WriteLine(mpq.DeleteMax());
+            Console.WriteLine();
+            // Show the remaining items inside the unordered max priority queue (array version)
+            mpq.Print();
 
-            foreach (var item in arr5)
-            {
-                Console.Write($"{item} ");
-            }
+            //int[] arr5 = new int[] { 3, 5, 8, 2, 9, 10, 1, 0, 1, 2 };
+
+            //ShuffleSort.Sort(arr5);
+            //Quicksort.Sort(arr5, 0, arr5.Length - 1);
+
+            //foreach (var item in arr5)
+            //{
+            //    Console.Write($"{item} ");
+            //}
 
             //int[] arr4 = new int[] { 3, 5, 8, 2, 9, 10, 1, 0, 1, 2 };
             //int[] temp = new int[arr4.Length];
