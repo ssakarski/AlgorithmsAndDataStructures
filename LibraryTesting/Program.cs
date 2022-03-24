@@ -8,21 +8,38 @@ namespace LibraryTesting
         static void Main(string[] args)
         {
 
-            UnorderedMaxPriorityQueue mpq = new UnorderedMaxPriorityQueue(7);
-            mpq.Insert(5);
-            mpq.Insert(2);
-            mpq.Insert(3);
-            mpq.Insert(4);
-            mpq.Insert(1);
-            mpq.Insert(8);
-            mpq.Insert(24);
+            MaxPQ orderedMPQ = new MaxPQ(10);
+            orderedMPQ.Insert(10);
+            orderedMPQ.Insert(23);
+            orderedMPQ.Insert(8);
+            orderedMPQ.Insert(2);
+            orderedMPQ.Insert(9);
+            orderedMPQ.Insert(14);
+            orderedMPQ.Insert(77);
+            orderedMPQ.Insert(22);
+            orderedMPQ.Insert(1);
 
-            Console.WriteLine(mpq.DeleteMax());
-            Console.WriteLine(mpq.DeleteMax());
-            Console.WriteLine(mpq.DeleteMax());
+            orderedMPQ.Print();
+
+            orderedMPQ.DeleteMax();
             Console.WriteLine();
+            orderedMPQ.Print();
+
+            //UnorderedMaxPriorityQueue mpq = new UnorderedMaxPriorityQueue(7);
+            //mpq.Insert(5);
+            //mpq.Insert(2);
+            //mpq.Insert(3);
+            //mpq.Insert(4);
+            //mpq.Insert(1);
+            //mpq.Insert(8);
+            //mpq.Insert(24);
+
+            //Console.WriteLine(mpq.DeleteMax());
+            //Console.WriteLine(mpq.DeleteMax());
+            //Console.WriteLine(mpq.DeleteMax());
+            //Console.WriteLine();
             // Show the remaining items inside the unordered max priority queue (array version)
-            mpq.Print();
+            //mpq.Print();
 
             //int[] arr5 = new int[] { 3, 5, 8, 2, 9, 10, 1, 0, 1, 2 };
 
