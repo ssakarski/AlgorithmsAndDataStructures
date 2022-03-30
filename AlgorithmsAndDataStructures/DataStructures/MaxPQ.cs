@@ -39,6 +39,7 @@ namespace AlgorithmsAndDataStructures.DataStructures
             arr[++count] = item;
             swim(count);
         }
+        public int Count { get => count;}
         /// <summary>
         /// Delete the max int which is located at position 1
         /// </summary>

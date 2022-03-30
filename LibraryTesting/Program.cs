@@ -8,22 +8,30 @@ namespace LibraryTesting
         static void Main(string[] args)
         {
 
-            MaxPQ orderedMPQ = new MaxPQ(10);
-            orderedMPQ.Insert(10);
-            orderedMPQ.Insert(23);
-            orderedMPQ.Insert(8);
-            orderedMPQ.Insert(2);
-            orderedMPQ.Insert(9);
-            orderedMPQ.Insert(14);
-            orderedMPQ.Insert(77);
-            orderedMPQ.Insert(22);
-            orderedMPQ.Insert(1);
+            int[] heapsort = new int[10] {13,10,1,7,20,34,50,11,5,2 };
 
-            orderedMPQ.Print();
+            Heapsort.Sort(heapsort);
 
-            orderedMPQ.DeleteMax();
-            Console.WriteLine();
-            orderedMPQ.Print();
+            foreach (var item in heapsort)
+            {
+                Console.Write(item +" ");
+            }
+
+            //MaxPQ orderedMPQ = new MaxPQ(10);
+            //orderedMPQ.Insert(10);
+            //orderedMPQ.Insert(23);
+            //orderedMPQ.Insert(8);
+            //orderedMPQ.Insert(2);
+            //orderedMPQ.Insert(9);
+            //orderedMPQ.Insert(14);
+            //orderedMPQ.Insert(77);
+            //orderedMPQ.Insert(22);
+            //orderedMPQ.Insert(1);
+
+            //for (int i = 0; i != orderedMPQ.Count;)
+            //{
+            //    Console.Write(orderedMPQ.DeleteMax()+" ");
+            //}
 
             //UnorderedMaxPriorityQueue mpq = new UnorderedMaxPriorityQueue(7);
             //mpq.Insert(5);
