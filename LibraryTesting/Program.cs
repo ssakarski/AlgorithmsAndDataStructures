@@ -7,11 +7,23 @@ namespace LibraryTesting
     {
         static void Main(string[] args)
         {
-            int[] binSearch = new int[8] { 1, 2, 3, 4, 5, 6, 7, 8 };
-            int start = 0;
-            int end = binSearch.Length - 1;
-            int target = 9;
-            BinarySearch.Search(binSearch, target, start, end);
+            BinarySearchTree BST = new BinarySearchTree(100);
+            BST.Add(9);
+            BST.Add(7);
+            BST.Add(10);
+            BST.Add(107);
+
+            BST.InOrder(BST.Root);
+            Console.WriteLine();
+            BST.PreOrder(BST.Root);
+            Console.WriteLine();
+            BST.PostOrder(BST.Root);
+
+            //int[] binSearch = new int[8] { 1, 2, 3, 4, 5, 6, 7, 8 };
+            //int start = 0;
+            //int end = binSearch.Length - 1;
+            //int target = 9;
+            //BinarySearch.Search(binSearch, target, start, end);
 
             //int[] heapsort = new int[10] {13,10,1,7,20,34,50,11,5,2 };
 
