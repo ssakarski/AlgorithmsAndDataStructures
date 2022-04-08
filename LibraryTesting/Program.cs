@@ -12,12 +12,12 @@ namespace LibraryTesting
             BST.Add(7);
             BST.Add(10);
             BST.Add(107);
-
+            BST.Add(108);
+            Console.WriteLine(BST.Size);
+            BST.Delete(108);
+            BST.Delete(9);
+            Console.WriteLine(BST.Size);
             BST.InOrder(BST.Root);
-            Console.WriteLine();
-            BST.PreOrder(BST.Root);
-            Console.WriteLine();
-            BST.PostOrder(BST.Root);
 
             //int[] binSearch = new int[8] { 1, 2, 3, 4, 5, 6, 7, 8 };
             //int start = 0;
